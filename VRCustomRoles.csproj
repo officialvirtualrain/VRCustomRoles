@@ -91,16 +91,14 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="CustomRoles\ExiledCI.cs" />
+        <Compile Include="CustomRoles\GuardCorporal.cs" />
+        <Compile Include="CustomRoles\HeadOfTheScienceDepartment.cs" />
+        <Compile Include="CustomRoles\Janitor.cs" />
+        <Compile Include="CustomRoles\O5.cs" />
+        <Compile Include="CustomRoles\SeniorResearcher.cs" />
+        <Compile Include="CustomRoles\Shahid.cs" />
         <Compile Include="Properties\AssemblyInfo.cs"/>
-        <Compile Include="VRCustomRoles\Config.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\ExiledCI.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\GuardCorporal.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\HeadOfTheScienceDepartment.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\Janitor.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\O5.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\SeniorResearcher.cs" />
-        <Compile Include="VRCustomRoles\CustomRoles\Shahid.cs" />
-        <Compile Include="VRCustomRoles\Plugin.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
